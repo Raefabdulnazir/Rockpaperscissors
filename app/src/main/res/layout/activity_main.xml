@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="ROCK PAPER SCISSORS"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/playerChoseHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="PLAYER chose"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/playerChoice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="playerChoice"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/cpuChoseHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="CPU chose"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/cpuChoice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cpuChoice"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="175sp"
+            android:layout_marginTop="300sp"
+            android:text="ROCK" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="175sp"
+            android:text="PAPER" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="175sp"
+            android:text="Scissors" />
+    </LinearLayout>
+</LinearLayout>
